@@ -1,15 +1,15 @@
 package com.upasana.app;
 
 import junit.framework.Assert;
-import junit.framework.Test;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest extends TestCase
 {
-
+    @Test
 
     public void testSayHi(){
         String expectedResult= "Hi from greeting";
@@ -18,6 +18,7 @@ public class AppTest extends TestCase
         Assert.assertEquals(expectedResult,result);
     }
 
+    @Test
     public void testSayWelcome(){
         String expectedResult1= "Welcome from greeting";
         Greeting greeting =new Greeting();
@@ -25,6 +26,7 @@ public class AppTest extends TestCase
         Assert.assertEquals(expectedResult1,result1);
     }
 
+    @Test
     public void testSayHello(){
         String expectedResult2= "Hello from greeting";
         Greeting greeting =new Greeting();
@@ -32,6 +34,7 @@ public class AppTest extends TestCase
         Assert.assertEquals(expectedResult2,result2);
     }
 
+    @Test
     public void testSayBye(){
         String expectedResult3= "Bye from greeting";
         Greeting greeting =new Greeting();
