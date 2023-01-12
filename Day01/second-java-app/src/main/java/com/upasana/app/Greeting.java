@@ -11,11 +11,11 @@ public class Greeting {
     }
 
     public String SayHello(){
-        return "Welcome from greeting";
+        return "Hello from greeting";
     }
 
     public String SayBye(){
-        return "Welcome from greeting";
+        return "Bye from greeting";
     }
 
 
