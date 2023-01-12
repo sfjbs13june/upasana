@@ -1,5 +1,6 @@
 package com.upasana.app;
 
+import junit.framework.Assert;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -7,32 +8,35 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
+
+    @Test
+    public void testSayHi(){
+        String expectedResult= "Hi from greeting";
+        Greeting greeting =new Greeting();
+        String result= greeting.SayHi();
+        Assert.assertEquals(expectedResult,result);
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
+    public void testSayWelcome(){
+        String expectedResult1= "Welcome from greeting";
+        Greeting greeting =new Greeting();
+        String result1= greeting.SayWelcome();
+        Assert.assertEquals(expectedResult1,result1);
     }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    public void testSayHello(){
+        String expectedResult2= "Hello from greeting";
+        Greeting greeting =new Greeting();
+        String result= greeting.SayWelcome();
+        Assert.assertEquals(expectedResult2,result);
+    }
+
+    public void testSayBye(){
+        String expectedResult3= "Bye from greeting";
+        Greeting greeting =new Greeting();
+        String result3= greeting.SayWelcome();
+        Assert.assertEquals(expectedResult3,result3);
     }
 }
