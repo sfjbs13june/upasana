@@ -2,7 +2,7 @@
 '''
 https://start.spring.io/
 '''
-
+Adding dependency Spring Web to the application
 2 Build the project
 '''
 mvn clean install
