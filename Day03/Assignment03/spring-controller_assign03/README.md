@@ -12,6 +12,6 @@ mvn spring-boot:run
 
 4 Adding @GetMapping and @RequestMapping controller to the GreetingController.java file and again building and running the code
 
-5 Performing unit testing by creating test cases in HelloControllerTest.java
+5 Performing unit testing by creating test cases in GreetingControllerTest.java
 
-6 Performing integration testing by creating test cases in HelloControllerIntegrationTest.java
+6 Performing integration testing by creating test cases in GreetingControllerIntegrationTest.java
