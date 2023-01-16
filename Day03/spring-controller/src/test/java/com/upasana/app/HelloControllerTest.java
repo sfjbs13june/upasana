@@ -20,10 +20,10 @@ public class HelloControllerTest {
     @Test
     public void testSayRequestHello()
     {
-        String expectedresult= "Hello from Request Hello!";
+        String expectedResult= "Hello from Request Hello!";
         HelloController hc = new HelloController();
         String result = hc.RequestHello();
-        Assert.assertEquals(expectedresult,result);
+        Assert.assertEquals(expectedResult,result);
 
 
     }
