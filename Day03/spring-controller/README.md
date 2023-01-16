@@ -13,4 +13,6 @@ mvn clean install
 mvn spring-boot:run
 '''
 
-4 Adding @GetMapping and @RequestMapping controller to the HelloContoller program and again building and running the code
+4 Adding @GetMapping and @RequestMapping controller to the HelloController program and again building and running the code
+
+5 Performing unit testing by creating test cases in HelloControllerTest.java
