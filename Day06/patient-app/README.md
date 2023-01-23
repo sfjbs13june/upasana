@@ -24,3 +24,7 @@ curl --location --request POST 'localhost:8080/patient/save' \
 }'
 ```
 
+4 Writing Integration Test
+
+5 Writing Exceptions for each parameter
+
