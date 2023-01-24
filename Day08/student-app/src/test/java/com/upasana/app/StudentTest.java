@@ -10,8 +10,8 @@ public class StudentTest {
     @Test
     public void getStudentTest(){
 
-        List listStudent = new ArrayList();
-        Student student1 =
+//        List listStudent = new ArrayList();
+//        Student student1 =
 
     }
 }
