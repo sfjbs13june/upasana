@@ -9,4 +9,6 @@ public interface PatientRepository extends MongoRepository<Patient, String> {
 
     public Patient save(Patient patient);
 
+    public void deleteByname(String name);
+
 }
