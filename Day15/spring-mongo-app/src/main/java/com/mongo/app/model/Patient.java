@@ -1,4 +1,4 @@
-package com.mongo.app.controller;
+package com.mongo.app.model;
 
 public class Patient {
     String patId;
